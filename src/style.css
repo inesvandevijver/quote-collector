@@ -23,37 +23,18 @@ body {
   color: var(--textColor);/* [TODOLABO]: maak gebruik van de textColor variabele */
 }
 
-/** Dit is hier wat commentaar, dat er uit moet in production**/
-
 p {
   line-height: calc(1.8);
 }
 
 strong {
   font-weight: bold;
-
-  @nest p & {
-    /** [TODOLABO]: enkel om @nest  voorbeeld aan te halen, je hoeft niets aan te passen **/
-    color: darkorange;
-  }
 }
-
-.nadar-img {
-  filter: grayscale(100%);
-  margin: 1rem auto;
-  display: block;
-  width: 50vw;
-
-  &:hover {
-    filter: none;
-  }
-}/** [TODOLABO]: maak gebruik van &:hover in .nadar-img (nesting) ipv .nadar-img:hover */
 
 .hide {
   display: none;
 }
 
-/** [TODOLABO]: maak gebruik van nieuwe media query syntax */
 @media screen and (width >= 500px) {
 
   h1 {
