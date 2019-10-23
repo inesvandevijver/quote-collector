@@ -68,3 +68,8 @@ footer {
     font-size: 6vw;
   }
 }
+
+.randomquote {
+  color: black;
+  text-transform: uppercase;
+}

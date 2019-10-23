@@ -1,6 +1,6 @@
 :root {
-  --backgroundColor: #eaeae9;
-  --textColor: #463636;
+  --backgroundColor: white;
+  --textColor: black;
   --anotherColor: #bada55;
   --margin: 2rem;
 }
