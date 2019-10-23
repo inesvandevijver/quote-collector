@@ -49,6 +49,13 @@ strong {
   }
 }/** [TODOLABO]: maak gebruik van &:hover in .nadar-img (nesting) ipv .nadar-img:hover */
 
+<<<<<<< HEAD
+footer {
+  height: 7rem;
+}
+
+=======
+>>>>>>> 62cd4fcb3fbf6a047fa5a9ebe86b48a122e40faf
 .hide {
   display: none;
 }
