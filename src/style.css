@@ -50,10 +50,6 @@ strong {
 }/** [TODOLABO]: maak gebruik van &:hover in .nadar-img (nesting) ipv .nadar-img:hover */
 
 footer {
-  background-image: url(assets/img/nadar.svg);
-  background-repeat: repeat-x;
-  background-position: bottom;
-  background-size: 10vw;
   height: 7rem;
 }
 
