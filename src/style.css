@@ -38,24 +38,25 @@ strong {
   }
 }
 
-.nadar-img {
-  filter: grayscale(100%);
-  margin: 1rem auto;
-  display: block;
-  width: 50vw;
+.nice-to-know {
+  border-top: .1rem #222 solid;
+  border-bottom: .1rem #222 solid;
+  margin-top: 1rem;
+  padding: .5rem;
+}
 
-  &:hover {
-    filter: none;
-  }
-}/** [TODOLABO]: maak gebruik van &:hover in .nadar-img (nesting) ipv .nadar-img:hover */
+.fact {
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  color: #01743e;
+}
 
-<<<<<<< HEAD
 footer {
   height: 7rem;
 }
 
-=======
->>>>>>> 62cd4fcb3fbf6a047fa5a9ebe86b48a122e40faf
 .hide {
   display: none;
 }
